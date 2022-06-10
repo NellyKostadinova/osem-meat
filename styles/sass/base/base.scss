@@ -1,0 +1,61 @@
+html {
+  font-family: 'Bebas Neue Pro', sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+body {
+  color: $white;
+  background-color: $green;
+}
+
+.bg-split {
+  @include bg-split;
+}
+
+.bg-pattern-dark {
+  @include bg-pattern-dark;
+}
+
+.bg-pattern-light {
+  @include bg-pattern-light;
+}
+
+.container {
+  @include container;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.13rem;
+  padding: 0.3em 1em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 1.13rem;
+
+  &.btn-light {
+    background-color: $pink;
+    color: $green;
+  }
+
+  &.btn-dark {
+    background-color: $green;
+    color: $white;
+  }
+}

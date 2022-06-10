@@ -1,0 +1,63 @@
+@mixin viewport-height() {
+  height: 100vh;
+}
+
+@mixin bg-pattern-dark() {
+  background-image: url('../../assets/bg-logo-pattern.svg');
+  background-size: 1760px auto;
+  background-repeat: repeat;
+}
+
+@mixin bg-pattern-light() {
+  background-image: url('../../assets/bg-logo-pattern-light.svg');
+  background-size: 1760px auto;
+  background-repeat: repeat;
+}
+
+@mixin bg-logo-light() {
+  background-image: url('../../assets/bg-logo-light.svg');
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+
+@mixin bg-logo-dark() {
+  background-image: url('../../assets/bg-logo-dark.svg');
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+
+@mixin bg-split($percentage: 50%, $direction: right) {
+  background-image: linear-gradient(
+    to $direction,
+    $pink $percentage,
+    $green $percentage
+  );
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &:before {
+    @include bg-logo-light;
+  }
+
+  &:after {
+    @include bg-logo-dark;
+  }
+}
+
+@mixin container() {
+  max-width: 1600px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}

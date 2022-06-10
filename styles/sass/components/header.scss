@@ -1,0 +1,42 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  z-index: 100;
+
+  &.header-light {
+    a {
+      color: $white;
+    }
+  }
+
+  .logo {
+    display: block;
+    width: 215px;
+    height: auto;
+    margin-bottom: 1.5rem;
+
+    &.logo-dark {
+      display: none;
+    }
+  }
+
+  nav {
+    > ul > li {
+      font-size: 1.66rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+
+      li {
+        font-size: 0.85rem;
+        font-weight: normal;
+      }
+    }
+
+    a {
+      color: $green;
+    }
+  }
+}

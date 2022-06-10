@@ -1,0 +1,45 @@
+.contacts-hero {
+  @include bg-split(30%, left);
+  height: 100vh;
+  overflow: hidden;
+
+  &-inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    z-index: 2;
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-basis: 40%;
+    padding-left: 10rem;
+  }
+
+  &-image {
+    flex-basis: 60%;
+    flex-shrink: 0;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .contacts-list {
+    li {
+      .contact-name {
+        text-transform: uppercase;
+      }
+
+      + li {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

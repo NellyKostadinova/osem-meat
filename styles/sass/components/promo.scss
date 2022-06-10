@@ -1,0 +1,67 @@
+.promo {
+  &-inner {
+    @include container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 45%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    p + p {
+      margin-top: 1rem;
+    }
+
+    .btn {
+      margin-top: 1.33rem;
+    }
+  }
+
+  &-image {
+    flex-basis: 50%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &.image-overlap {
+    + .promo {
+      .promo-content {
+        padding-top: 7rem;
+      }
+    }
+
+    .promo-image {
+      padding: 0;
+    }
+
+    img {
+      margin-bottom: -30%;
+      animation: rotate 1.5s ease-out 0s 1 normal forwards;
+    }
+  }
+
+  &-dark {
+    @include bg-pattern-light;
+  }
+
+  &-light {
+    @include bg-pattern-dark;
+    background-color: $pink;
+    color: $green;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: scale(0.01) rotate(360deg);
+  }
+  to {
+    transform: scale(1) rotate(0deg);
+  }
+}

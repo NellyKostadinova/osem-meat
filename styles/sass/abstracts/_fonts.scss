@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Bebas Neue Pro Middle';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.eot');
+  src: local('Bebas Neue Pro Middle Italic'), local('BebasNeuePro-MiddleItalic'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.ttf')
+      format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.eot');
+  src: local('Bebas Neue Pro Bold Italic'), local('BebasNeuePro-BoldItalic'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-Light.eot');
+  src: local('Bebas Neue Pro Light'), local('BebasNeuePro-Light'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Light.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Light.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-LightItalic.eot');
+  src: local('Bebas Neue Pro Light Italic'), local('BebasNeuePro-LightItalic'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-LightItalic.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-LightItalic.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-Thin.eot');
+  src: local('Bebas Neue Pro Thin'), local('BebasNeuePro-Thin'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Thin.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Thin.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Thin.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.eot');
+  src: local('Bebas Neue Pro Thin Italic'), local('BebasNeuePro-ThinItalic'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro Book';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-Book.eot');
+  src: local('Bebas Neue Pro Book'), local('BebasNeuePro-Book'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Book.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Book.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Book.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro Book';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-BookItalic.eot');
+  src: local('Bebas Neue Pro Book Italic'), local('BebasNeuePro-BookItalic'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-BookItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-BookItalic.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-BookItalic.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro Middle';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-Middle.eot');
+  src: local('Bebas Neue Pro Middle'), local('BebasNeuePro-Middle'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Middle.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Middle.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Middle.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Middle.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-Bold.eot');
+  src: local('Bebas Neue Pro Bold'), local('BebasNeuePro-Bold'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Bold.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Bold.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-Italic.eot');
+  src: local('Bebas Neue Pro Italic'), local('BebasNeuePro-Italic'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Italic.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Italic.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Italic.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Bebas Neue Pro';
+  src: url('../fonts/BebasNeuePro/BebasNeuePro-Regular.eot');
+  src: local('Bebas Neue Pro Regular'), local('BebasNeuePro-Regular'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Regular.woff2') format('woff2'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Regular.woff') format('woff'),
+    url('../fonts/BebasNeuePro/BebasNeuePro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

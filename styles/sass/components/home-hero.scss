@@ -1,0 +1,48 @@
+.home-hero {
+  @include bg-split;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &:before {
+    @include bg-logo-light;
+  }
+
+  &:after {
+    @include bg-logo-dark;
+  }
+
+  &-image {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    animation: slide-up 1s ease-out 0s 1 normal forwards;
+    z-index: 2;
+  }
+
+  img {
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
