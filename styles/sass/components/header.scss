@@ -22,7 +22,6 @@ header {
       > ul > li {
         &.active {
           color: $white;
-          border-bottom: 1px solid $white;
           font-weight: bold;
         }
       }
@@ -30,19 +29,44 @@ header {
   }
 
   &.header-dark {
-    .logo-light {
+    .logo.logo-light {
       display: none;
     }
 
-    .logo-dark {
+    .logo.logo-dark {
       display: block;
     }
 
-    nav > ul > li.active {
+    nav > ul > li {
       &.active {
         a {
           border-bottom: 1px solid $green;
           padding-bottom: 0.3rem;
+        }
+      }
+    }
+  }
+
+  &.header-white {
+    a {
+      color: $white;
+    }
+
+    nav > ul > li {
+      &.active {
+        > a {
+          color: $green;
+          border-bottom: 1px solid $green;
+          padding-bottom: 0.3rem;
+        }
+      }
+
+      > ul > li {
+        &.active {
+          a {
+            color: $green;
+            font-weight: bold;
+          }
         }
       }
     }
@@ -67,7 +91,7 @@ header {
       margin-bottom: 0.75rem;
 
       &.active {
-        a {
+        > a {
           border-bottom: 1px solid $green;
           padding-bottom: 0.3rem;
         }
@@ -75,6 +99,7 @@ header {
 
       ul {
         display: none;
+        margin-top: 0.5rem;
       }
 
       li {

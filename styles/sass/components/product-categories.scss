@@ -1,0 +1,43 @@
+.product-categories {
+  @include save-header;
+  @include bg-logo-dark;
+  padding-right: 3rem;
+  height: 100vh;
+  background-color: $pink;
+
+  &-inner {
+    height: 100%;
+  }
+
+  &-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+
+    li {
+      flex-basis: 33%;
+      text-align: center;
+
+      h3 {
+        text-transform: uppercase;
+        color: $green;
+      }
+
+      a:hover {
+        text-decoration: none;
+
+        img {
+          transform: scale(1.1);
+        }
+      }
+
+      img {
+        margin-top: 1rem;
+        transition: transform 0.3s ease-out;
+      }
+    }
+  }
+}

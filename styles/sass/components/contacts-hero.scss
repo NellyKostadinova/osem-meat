@@ -12,11 +12,11 @@
   }
 
   &-content {
+    @include save-header;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-basis: 40%;
-    padding-left: 10rem;
   }
 
   &-image {
