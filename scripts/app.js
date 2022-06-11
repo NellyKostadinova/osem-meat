@@ -1,1 +1,7 @@
-console.log('hello')
+$('document').ready(() => {
+  osemNav();
+});
+
+const osemNav = () => {
+  $('header nav li li.active').closest('ul').css('display', 'block');
+}

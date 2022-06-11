@@ -7,7 +7,44 @@ header {
 
   &.header-light {
     a {
-      color: $white;
+      color: $pink;
+    }
+
+    nav > ul > li {
+      &.active {
+        a {
+          color: $white;
+          border-bottom: 1px solid $white;
+          padding-bottom: 0.3rem;
+        }
+      }
+
+      > ul > li {
+        &.active {
+          color: $white;
+          border-bottom: 1px solid $white;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+  &.header-dark {
+    .logo-light {
+      display: none;
+    }
+
+    .logo-dark {
+      display: block;
+    }
+
+    nav > ul > li.active {
+      &.active {
+        a {
+          border-bottom: 1px solid $green;
+          padding-bottom: 0.3rem;
+        }
+      }
     }
   }
 
@@ -29,6 +66,17 @@ header {
       text-transform: uppercase;
       margin-bottom: 0.75rem;
 
+      &.active {
+        a {
+          border-bottom: 1px solid $green;
+          padding-bottom: 0.3rem;
+        }
+      }
+
+      ul {
+        display: none;
+      }
+
       li {
         font-size: 0.85rem;
         font-weight: normal;
@@ -36,7 +84,12 @@ header {
     }
 
     a {
+      display: inline-block;
       color: $green;
+
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }

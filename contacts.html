@@ -1,66 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Osem Meat</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yzn7ymk.css" />
+    <link rel="stylesheet" href="/styles/sass/main.scss" />
+    <script type="module" src="/scripts/app.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Osem Meat</title>
-  <link rel="stylesheet" href="https://use.typekit.net/yzn7ymk.css">
-  <link rel="stylesheet" href="/styles/sass/main.scss" />
-  <script type="module" src="/scripts/app.js"></script>
-
-</head>
-
-<body>
-  <header class="header-light">
-    <img src="/assets/logo-green.svg" alt="ОСЕМ" class="logo logo-dark">
-    <img src="/assets/logo-white.svg" alt="ОСЕМ" class="logo logo-light">
-    <nav>
-      <ul>
-        <li><a href="#">продукти</a>
-          <ul>
-            <li><a href="#">основна серия</a></li>
-            <li><a href="#">премиум серия</a></li>
-          </ul>
-        </li>
-        <li><a href="contacts.html">контакти</a></li>
-        <li><a href="#">блог</a>
-          <ul>
-            <li><a href="#">бързи рецепти</a></li>
-            <li><a href="#">рецепти за майстори</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <section class="contacts-hero">
-    <div class="contacts-hero-inner">
-      <div class="contacts-hero-content">
-        <ul class="contacts-list">
+  <body>
+    <header class="header-light">
+      <a href="/">
+        <img src="/assets/logo-green.svg" alt="ОСЕМ" class="logo logo-dark" />
+        <img src="/assets/logo-white.svg" alt="ОСЕМ" class="logo logo-light" />
+      </a>
+      <nav>
+        <ul>
           <li>
-            <p class="contact-name">Йордан Величков</p>
-            <p class="contact-title">Търговски Директор</p>
-            <p class="contact-phone"><a href="tel:0878708080">0878 70 80 80</a></p>
-            <p class="contact-email"><a href="mailto:y.velichkov@vivecta.com">y.velichkov@vivecta.com</a></p>
+            <a href="#">продукти</a>
+            <ul>
+              <li><a href="#">основна серия</a></li>
+              <li><a href="#">премиум серия</a></li>
+            </ul>
           </li>
+          <li class="active"><a href="contacts.html">контакти</a></li>
           <li>
-            <p class="contact-title">Търговски представител</p>
-            <p class="contact-phone"><a href="tel:0879800888">0879 800 888</a></p>
-            <p class="contact-email"><a href="mailto:osemsales1@vivecta.com">osemsales1@vivecta.com</a></p>
-          </li>
-          <li>
-            <p class="contact-title">Търговски представител</p>
-            <p class="contact-phone"><a href="tel:0878808070">0878 80 80 70</a></p>
-            <p class="contact-email"><a href="mailto:osemsales2@vivecta.com">osemsales2@vivecta.com</a></p>
+            <a href="#">блог</a>
+            <ul>
+              <li><a href="#">бързи рецепти</a></li>
+              <li><a href="#">рецепти за майстори</a></li>
+            </ul>
           </li>
         </ul>
+      </nav>
+    </header>
+    <section class="contacts-hero">
+      <div class="contacts-hero-inner">
+        <div class="contacts-hero-content">
+          <ul class="contacts-list">
+            <li>
+              <p class="contact-name">Йордан Величков</p>
+              <p class="contact-title">Търговски Директор</p>
+              <p class="contact-phone">
+                <a href="tel:0878708080">0878 70 80 80</a>
+              </p>
+              <p class="contact-email">
+                <a href="mailto:y.velichkov@vivecta.com"
+                  >y.velichkov@vivecta.com</a
+                >
+              </p>
+            </li>
+            <li>
+              <p class="contact-title">Търговски представител</p>
+              <p class="contact-phone">
+                <a href="tel:0879800888">0879 800 888</a>
+              </p>
+              <p class="contact-email">
+                <a href="mailto:osemsales1@vivecta.com"
+                  >osemsales1@vivecta.com</a
+                >
+              </p>
+            </li>
+            <li>
+              <p class="contact-title">Търговски представител</p>
+              <p class="contact-phone">
+                <a href="tel:0878808070">0878 80 80 70</a>
+              </p>
+              <p class="contact-email">
+                <a href="mailto:osemsales2@vivecta.com"
+                  >osemsales2@vivecta.com</a
+                >
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="contacts-hero-image">
+          <img src="/assets/Printzesi4_shadow@0.3x.png" alt="ОСЕМ Принцеси" />
+        </div>
       </div>
-      <div class="contacts-hero-image">
-        <img src="/assets/Printzesi4_shadow@0.3x.png" alt="ОСЕМ Принцеси">
-      </div>
-    </div>
-  </section>
-</body>
-
+    </section>
+  </body>
 </html>
