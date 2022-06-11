@@ -3,6 +3,11 @@
     "@parcel/transformer-sass": "^2.6.0"
   },
   "dependencies": {
+    "parcel": "^2.6.0",
     "parcel-plugin-google-fonts": "^0.1.4"
+  },
+  "scripts": {
+    "dev": "npx parcel index.html",
+    "build-sass": "sass styles/sass/main.scss styles/style.css"
   }
 }

@@ -1,0 +1,578 @@
+@font-face {
+  font-family: "Bebas Neue Pro Middle";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.eot");
+  src: local("Bebas Neue Pro Middle Italic"), local("BebasNeuePro-MiddleItalic"), url("../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-MiddleItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.eot");
+  src: local("Bebas Neue Pro Bold Italic"), local("BebasNeuePro-BoldItalic"), url("../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-Light.eot");
+  src: local("Bebas Neue Pro Light"), local("BebasNeuePro-Light"), url("../fonts/BebasNeuePro/BebasNeuePro-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-Light.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-Light.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-LightItalic.eot");
+  src: local("Bebas Neue Pro Light Italic"), local("BebasNeuePro-LightItalic"), url("../fonts/BebasNeuePro/BebasNeuePro-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-LightItalic.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-LightItalic.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-Thin.eot");
+  src: local("Bebas Neue Pro Thin"), local("BebasNeuePro-Thin"), url("../fonts/BebasNeuePro/BebasNeuePro-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-Thin.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-Thin.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.eot");
+  src: local("Bebas Neue Pro Thin Italic"), local("BebasNeuePro-ThinItalic"), url("../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bebas Neue Pro Book";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-Book.eot");
+  src: local("Bebas Neue Pro Book"), local("BebasNeuePro-Book"), url("../fonts/BebasNeuePro/BebasNeuePro-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-Book.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-Book.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue Pro Book";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-BookItalic.eot");
+  src: local("Bebas Neue Pro Book Italic"), local("BebasNeuePro-BookItalic"), url("../fonts/BebasNeuePro/BebasNeuePro-BookItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-BookItalic.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-BookItalic.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-BookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bebas Neue Pro Middle";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-Middle.eot");
+  src: local("Bebas Neue Pro Middle"), local("BebasNeuePro-Middle"), url("../fonts/BebasNeuePro/BebasNeuePro-Middle.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-Middle.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-Middle.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-Middle.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-Bold.eot");
+  src: local("Bebas Neue Pro Bold"), local("BebasNeuePro-Bold"), url("../fonts/BebasNeuePro/BebasNeuePro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-Bold.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-Bold.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-Italic.eot");
+  src: local("Bebas Neue Pro Italic"), local("BebasNeuePro-Italic"), url("../fonts/BebasNeuePro/BebasNeuePro-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-Italic.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-Italic.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bebas Neue Pro";
+  src: url("../fonts/BebasNeuePro/BebasNeuePro-Regular.eot");
+  src: local("Bebas Neue Pro Regular"), local("BebasNeuePro-Regular"), url("../fonts/BebasNeuePro/BebasNeuePro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeuePro/BebasNeuePro-Regular.woff2") format("woff2"), url("../fonts/BebasNeuePro/BebasNeuePro-Regular.woff") format("woff"), url("../fonts/BebasNeuePro/BebasNeuePro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: "Bebas Neue Pro", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+body {
+  color: #ffffff;
+  background-color: #007864;
+}
+
+.bg-split {
+  background-image: linear-gradient(to right, #f2d4d7 50%, #007864 50%);
+}
+.bg-split::before, .bg-split::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.bg-split:before {
+  background-image: url("../../assets/bg-logo-light.svg");
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+.bg-split:after {
+  background-image: url("../../assets/bg-logo-dark.svg");
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+
+.bg-pattern-dark {
+  background-image: url("../../assets/bg-logo-pattern.svg");
+  background-size: 1760px auto;
+  background-repeat: repeat;
+}
+
+.bg-pattern-light {
+  background-image: url("../../assets/bg-logo-pattern-light.svg");
+  background-size: 1760px auto;
+  background-repeat: repeat;
+}
+
+.container {
+  max-width: 1600px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.13rem;
+  padding: 0.3em 1em;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 1.13rem;
+}
+.btn.btn-light {
+  background-color: #f2d4d7;
+  color: #007864;
+}
+.btn.btn-dark {
+  background-color: #007864;
+  color: #ffffff;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.contacts-hero {
+  background-image: linear-gradient(to left, #f2d4d7 30%, #007864 30%);
+  height: 100vh;
+  overflow: hidden;
+}
+.contacts-hero::before, .contacts-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.contacts-hero:before {
+  background-image: url("../../assets/bg-logo-light.svg");
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+.contacts-hero:after {
+  background-image: url("../../assets/bg-logo-dark.svg");
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+.contacts-hero-inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  z-index: 2;
+}
+.contacts-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-basis: 40%;
+  padding-left: 10rem;
+}
+.contacts-hero-image {
+  flex-basis: 60%;
+  flex-shrink: 0;
+  height: 100%;
+}
+.contacts-hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.contacts-hero .contacts-list li .contact-name {
+  text-transform: uppercase;
+}
+.contacts-hero .contacts-list li + li {
+  margin-top: 2rem;
+}
+
+footer {
+  background-image: url("../../assets/bg-logo-pattern-light.svg");
+  background-size: 1760px auto;
+  background-repeat: repeat;
+}
+footer .footer-inner {
+  max-width: 1600px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  line-height: 1;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+footer .footer-title {
+  font-size: 1.33rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+footer .footer-phone-list li {
+  font-size: 2rem;
+  font-weight: bold;
+}
+footer .footer-social-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+footer .footer-social-list li {
+  margin-left: 0.5rem;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  z-index: 100;
+}
+header.header-light a {
+  color: #f2d4d7;
+}
+header.header-light nav > ul > li.active a {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 0.3rem;
+}
+header.header-light nav > ul > li > ul > li.active {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  font-weight: bold;
+}
+header.header-dark .logo-light {
+  display: none;
+}
+header.header-dark .logo-dark {
+  display: block;
+}
+header.header-dark nav > ul > li.active.active a {
+  border-bottom: 1px solid #007864;
+  padding-bottom: 0.3rem;
+}
+header .logo {
+  display: block;
+  width: 215px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+header .logo.logo-dark {
+  display: none;
+}
+header nav > ul > li {
+  font-size: 1.66rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+header nav > ul > li.active a {
+  border-bottom: 1px solid #007864;
+  padding-bottom: 0.3rem;
+}
+header nav > ul > li ul {
+  display: none;
+}
+header nav > ul > li li {
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+header nav a {
+  display: inline-block;
+  color: #007864;
+}
+header nav a:hover {
+  text-decoration: none;
+}
+
+.home-hero {
+  background-image: linear-gradient(to right, #f2d4d7 50%, #007864 50%);
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.home-hero::before, .home-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.home-hero:before {
+  background-image: url("../../assets/bg-logo-light.svg");
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+.home-hero:after {
+  background-image: url("../../assets/bg-logo-dark.svg");
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+.home-hero::before, .home-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.home-hero:before {
+  background-image: url("../../assets/bg-logo-light.svg");
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+.home-hero:after {
+  background-image: url("../../assets/bg-logo-dark.svg");
+  background-size: 2760px auto;
+  background-repeat: repeat-x;
+  background-position: 2rem center;
+}
+.home-hero-image {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  animation: slide-up 1s ease-out 0s 1 normal forwards;
+  z-index: 2;
+}
+.home-hero img {
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+.promo-inner {
+  max-width: 1600px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.promo-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 45%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.promo-content p + p {
+  margin-top: 1rem;
+}
+.promo-content .btn {
+  margin-top: 1.33rem;
+}
+.promo-image {
+  flex-basis: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.promo.image-overlap + .promo .promo-content {
+  padding-top: 7rem;
+}
+.promo.image-overlap .promo-image {
+  padding: 0;
+}
+.promo.image-overlap img {
+  margin-bottom: -30%;
+  animation: rotate 1.5s ease-out 0s 1 normal forwards;
+}
+.promo-dark {
+  background-image: url("../../assets/bg-logo-pattern-light.svg");
+  background-size: 1760px auto;
+  background-repeat: repeat;
+}
+.promo-light {
+  background-image: url("../../assets/bg-logo-pattern.svg");
+  background-size: 1760px auto;
+  background-repeat: repeat;
+  background-color: #f2d4d7;
+  color: #007864;
+}
+
+@keyframes rotate {
+  from {
+    transform: scale(0.01) rotate(360deg);
+  }
+  to {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
